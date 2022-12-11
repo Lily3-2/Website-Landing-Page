@@ -1,0 +1,56 @@
+html, body {
+  min-height: 100%;
+  }
+  body, div, p { 
+  padding: 0;
+  margin: 0;
+  outline: none;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 14px;
+  color: #666;
+  line-height: 22px;
+  }
+
+  a {
+    color: #b84da9;
+    text-decoration: none;
+    background-color: transparent; }
+    a:hover {
+      color: #69350e;
+      text-decoration: underline; }
+
+      .nav {  
+        list-style-type: none;  
+        width:100%;  
+        top:0;  
+        margin: 0;  
+        padding: 0px;  
+        overflow: hidden;  
+        background-color: rgb(235, 141, 141);  
+      }  
+        
+      .navele {  
+        float: center;  
+          border-right: 1px solid rgb(10, 111, 40);  
+      }  
+        
+      .navele, a {  
+        display: block;  
+        color: rgb(33, 123, 19);  
+       font-size:20px;  
+        text-align: center;  
+        padding: 10px 20px;  
+        text-decoration: none;  
+      }  
+      .active{  
+      background-color: rgb(220, 196, 109);  
+      color: white;  
+      }  
+      .navele, a:hover {  
+        background-color: rgb(220, 196, 109);  
+        color: white;  
+      }  
+
+      img{
+        display:block;
+      }
