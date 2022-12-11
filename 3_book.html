@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Order form</title>
+    <link href="3_book.css" rel="stylesheet">
+  </head>
+  <body background="./images/Wallpaper (1).png" link="#006400" vlink="#006400">
+    <div class="main-block">
+      <h1>Order Form</h1>
+      <form method="get" action=“http://www.gmail.com”>
+    
+          <div class="item">
+            <h4>Personal Details</h4>
+            <p>
+              <label>Name
+                <input type="text" name="name" placeholder="First" required>
+                <input type="text" name="name" placeholder="Last" required>
+              </label> 
+            </p>
+          </div>
+          <div class="info">
+            <p>
+              <label>Phone 
+                <input type="tel" name="name">
+              </label>
+            </p>
+          </div>
+          <div class="info">
+            <p>
+              <label>Email 
+                <input type="email" name="name">
+              </label>
+            </p>
+          </div>
+
+          <div class="item">
+            <h4>Contact Address</h4>
+            <input type="text" name="name" placeholder="Street address"/>
+            <div class="city-item">
+              <input type="text" name="name" placeholder="City" />
+              <input type="text" name="name" placeholder="Region" />
+              <input type="text" name="name" placeholder="Postal / Zip code" />
+              <select>
+                <option value="">Country</option>
+                <option value="1">Nepal</option>
+                <option value="2">Germany</option>
+                <option value="3">France</option>
+                <option value="4">London</option>
+                <option value="5">India</option>
+              </select>
+            </div>
+          </div>
+
+          <center><h4>Choose the products you want to book</h4></center>
+          <fieldset>
+            <legend>Which Facewash would do you like to choose?</legend>
+            <p><label> <input type="radio" name="facewash value="Ponds"> Ponds </label></p>
+            <p><label> <input type="radio" name="facewash" value="Himalaya"> Himalaya </label></p>
+            <p><label> <input type="radio" name="facewash" value="Lotus"> Lotus </label></p>
+          </fieldset>
+            
+          <fieldset>
+            <legend>Which Shampoo would do you like to choose?</legend>
+            <p><label> <input type="radio" name="shampoo" value="Pantene"> Pantene </label></p>
+            <p><label> <input type="radio" name="shampoo" value="Sunsilk"> Sunsilk </label></p>
+            <p><label> <input type="radio" name="shampoo" value="Dove"> Dove </label></p>
+          </fieldset>
+            
+          <fieldset>
+            <legend>Which Body Lotion would do you like to choose?</legend>
+            <p><label> <input type="radio" name="body lotion" value="Nivea"> Nivea </label></p>
+            <p><label> <input type="radio" name="body lotion" value="Cetaphil"> Cetaphil </label></p>
+            <p><label> <input type="radio" name="body lotion" value="Boroplus"> Boroplus </label></p>
+          </fieldset>
+            
+          <br> 
+          <br>
+
+        <p>
+        <label>When do you want to receive it?
+        <input type="datetime-local" name="pickup_time" required>
+        </label>
+        </p>
+<br>
+
+        <p>
+          Please take a few minutes to give us feedback about our service by filling in this short Customer Feedback Form. We are conducting this research in order to measure your level of satisfaction with the quality of our service. We thank you for your participation.
+        </p>
+<br>
+
+        <p class="question">Did you find what you needed?</p>
+        
+        <div class="question-answer">
+          <label><input type="radio" value="none" name="needed" /> Yes, all of it</label>
+          <label><input type="radio" value="none" name="needed" /> Yes, some of it</label>
+          <label><input type="radio" value="none" name="needed" /> No, none of it</label>
+        </div>
+        <p class="question">If you did not find any or all of what you needed, please tell us what information you were looking for.</p>
+        <textarea rows="5"></textarea>
+
+        <p>What should we change in order to live up to your expectations?</p>
+        <textarea rows="5" cols="20"></textarea>
+        
+        <center><p><button>Submit Response</button></p></center>
+      
+        
+      </form>
+    </div>
+      <p><a href="4_about.html">For any further queries visit our information page here.</a> </p>
+      <p><a href="1_home.html">Go back to home page.</a> </p>
+  </body>
+</html>
